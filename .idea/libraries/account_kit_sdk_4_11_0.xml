@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="account-kit-sdk-4.11.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.11.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/account-kit-sdk/4.11.0/be3bdbb645a7cde0880d4fe14f8f376ecf22dc84/account-kit-sdk-4.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AccountKit</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="app_id">465871913602533</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">b3f19a50f37af1e79c5bc59c02d59d90</string>
+
+    <string name="ak_login_protocol_scheme">ak465871913602533</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+</resources>

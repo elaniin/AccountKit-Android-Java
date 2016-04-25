@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Innove">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Go to Elaniin.com" />
+            <item
+                android:id="@+id/nav_menu_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Log Out from AccountKit" />
+        </menu>
+    </item>
+
+</menu>
