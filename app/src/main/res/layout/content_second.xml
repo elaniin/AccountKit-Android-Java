@@ -32,20 +32,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text="My Account"
-                    android:id="@+id/textView8"
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
+                    android:text="My Account"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textSize="30dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="This example shows how to implement Facebook AccountKit in iOS using Java."
-                    android:id="@+id/textView2"
-                    android:gravity="center_horizontal"
                     android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:text="This example shows how to implement Facebook AccountKit in iOS using Java."
                     android:textColor="#000000" />
             </LinearLayout>
         </LinearLayout>
@@ -67,7 +65,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="AccountKit ID:"
-                    android:id="@+id/textView11"
                     android:textColor="#000000"
                     android:textStyle="bold" />
 
@@ -88,17 +85,17 @@
                 android:layout_marginLeft="5dp" >
 
                 <TextView
+                    android:id="@+id/txtAccountKitID"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="123456789"
-                    android:id="@+id/txtAccountKitID"
+                    android:text="-"
                     android:textColor="#000000" />
 
                 <TextView
+                    android:id="@+id/txtUserLoginData"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="123456789"
-                    android:id="@+id/txtUserLoginData"
+                    android:text="-"
                     android:textColor="#000000" />
             </LinearLayout>
         </LinearLayout>

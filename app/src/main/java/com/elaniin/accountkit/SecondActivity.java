@@ -33,7 +33,6 @@ public class SecondActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
     }
 
     public void setUserInformation(){
@@ -42,7 +41,7 @@ public class SecondActivity extends AppCompatActivity {
             public void onSuccess(final Account account) {
                 // Get Account Kit ID
                 String accountKitId = account.getId();
-                Log.println(Log.ASSERT, "AccountKit", "ID: " + accountKitId);
+                logAssert("ID: " + accountKitId);
 
                 boolean SMSLoginMode = false;
 
@@ -51,13 +50,13 @@ public class SecondActivity extends AppCompatActivity {
                 String phoneNumberString = "";
                 if (phoneNumber != null) {
                     phoneNumberString = phoneNumber.toString();
-                    Log.println(Log.ASSERT, "AccountKit", "Phone: " + phoneNumberString);
+                    logAssert("Phone: " + phoneNumberString);
                     SMSLoginMode = true;
                 }
 
                 // Get email
                 String email = account.getEmail();
-                Log.println(Log.ASSERT, "AccountKit", "Email: " + email);
+                logAssert("Email: " + email);
 
                 txtAccountKitID.setText(accountKitId);
                 txtUserLoginMode.setText(SMSLoginMode ? "Phone:" : "Email:");
@@ -71,7 +70,7 @@ public class SecondActivity extends AppCompatActivity {
 
             @Override
             public void onError(final AccountKitError error) {
-                Log.println(Log.ASSERT, "AccountKit", "Error: " + error.toString());
+                logAssert("Error: " + error.toString());
             }
         });
     }
@@ -81,6 +80,10 @@ public class SecondActivity extends AppCompatActivity {
         Intent initialActivity = new Intent(this, InitialActivity.class);
         this.startActivity(initialActivity);
         this.finish();
+    }
+
+    private void logAssert(String error) {
+        Log.println(Log.ASSERT, "AccountKit", error);
     }
 
 }

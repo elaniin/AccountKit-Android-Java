@@ -1,3 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_fb9f66e587bc4b7b797fd62e07cb23944d2ba10b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\a03b2f8dc7093d33c64df519388bad3ead7ebe56\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\classes_6aec318fb82d985ee7dff77cc695ab42f1a77c15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\18ca655fb20d7b7854d9d94d55ddbaedc36b8985\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_05c163404a507e544b79b8df18ddce568f72d3f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\42d6398ca18a88350d85dacabb6bf2ab0783158e\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_79c69842829a1db67e3536ee92cabd189b421057.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\d9868d0db389f5e0ec12c6a817376551ce741dd0\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_3d3fb7f50a0abe82f3afb1975e685eba806bbfce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\a03b2f8dc7093d33c64df519388bad3ead7ebe56\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_0e517286552849a03f2be233ae86816239c85004.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\2d81f3518d96fd128fe98cba67905dcc93b541c5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\classes_f4ba5779d22d910c994205d1a29a56a1f57f7f0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\2a99074876eff4f26e91b088a5860bec1142b235\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="365dffcbaec9d0186865f51802739614a6a66321">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\classes_0b17e264977c66607b243b55c04bd8e2b3afa5d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\3a6befba7503303de8f7c673844581a6d74335de\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\classes_fea84c08122efde00c262434fdbb48f9d769505e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\b9f3eb2aa312a431e759acfb6fc196232f08e41a\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_99016cf06b049a2a23ce43e58f81c359fa14cbbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\b9f3eb2aa312a431e759acfb6fc196232f08e41a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\classes_2cf3f953577532aff833a5687bd93d15b62e8409.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\18ca655fb20d7b7854d9d94d55ddbaedc36b8985\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\classes_b90ecc458ac8135c1d49537e4b37219bb15541d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\d9868d0db389f5e0ec12c6a817376551ce741dd0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\classes_25c8068d36bd31809eecf453e38c159b1be2e14e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\cb37d8064cfbf7cc4bd9a905c6bdbb6997e17e1c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\classes_c6607dd957a0a8fe83e3189b26ceb982e03a0d2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\ea1c33f63a37f91f273b88c309f6443c2dee8bcc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\classes_79722db58ae6a3e985bb642c26f7099c941649d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\42d6398ca18a88350d85dacabb6bf2ab0783158e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\classes_7b94379a65ff252a9cddb58cbcfbb5a91d5c9cde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\43bd229a111a87f84ec625546154535f3bb4ac22\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\classes_dd0c1fda31b9764cd3e21caaa89bedc1106eda48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\icarl\.android\build-cache\fab1e6b2a7f8b9e88de4bae6e7c91683f4bf12d9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="D:\AccountKit-Android-Java\app\build\intermediates\pre-dexed\debug\classes_a40faa6fa4a743f61601a8938490365e6ad8e783.jar" />
+    </item>
+
+</items>
