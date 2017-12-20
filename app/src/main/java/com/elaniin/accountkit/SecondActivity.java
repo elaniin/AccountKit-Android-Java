@@ -2,12 +2,11 @@ package com.elaniin.accountkit;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.facebook.accountkit.Account;
@@ -18,21 +17,40 @@ import com.facebook.accountkit.PhoneNumber;
 
 public class SecondActivity extends AppCompatActivity {
 
-    TextView txtAccountKitID, txtUserLoginMode, txtUserLoginData;
+    private Toolbar mToolbar;
+    private TextView mTxtAccountKitID;
+    private TextView mTxtUserLoginData;
+    private TextView mTxtUserLoginMode;
+    private Button mBtnLogout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        txtAccountKitID = (TextView) findViewById(R.id.txtAccountKitID);
-        txtUserLoginMode = (TextView) findViewById(R.id.txtUserLoginMode);
-        txtUserLoginData = (TextView) findViewById(R.id.txtUserLoginData);
+        getObjects();
+        setProperties();
+    }
 
-        this.setUserInformation();
+    private void getObjects(){
+        mToolbar = findViewById(R.id.toolbar);
+        mTxtAccountKitID = findViewById(R.id.txtAccountKitID);
+        mTxtUserLoginMode = findViewById(R.id.txtUserLoginMode);
+        mTxtUserLoginData = findViewById(R.id.txtUserLoginData);
+        mBtnLogout = findViewById(R.id.btnLogout);
+    }
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+    private void setProperties(){
+        setSupportActionBar(mToolbar);
+
+        mBtnLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                logout();
+            }
+        });
+
+        setUserInformation();
     }
 
     public void setUserInformation(){
@@ -41,7 +59,7 @@ public class SecondActivity extends AppCompatActivity {
             public void onSuccess(final Account account) {
                 // Get Account Kit ID
                 String accountKitId = account.getId();
-                logAssert("ID: " + accountKitId);
+                log("ID: " + accountKitId);
 
                 boolean SMSLoginMode = false;
 
@@ -50,40 +68,40 @@ public class SecondActivity extends AppCompatActivity {
                 String phoneNumberString = "";
                 if (phoneNumber != null) {
                     phoneNumberString = phoneNumber.toString();
-                    logAssert("Phone: " + phoneNumberString);
+                    log("Phone: " + phoneNumberString);
                     SMSLoginMode = true;
                 }
 
                 // Get email
                 String email = account.getEmail();
-                logAssert("Email: " + email);
+                log("Email: " + email);
 
-                txtAccountKitID.setText(accountKitId);
-                txtUserLoginMode.setText(SMSLoginMode ? "Phone:" : "Email:");
+                mTxtAccountKitID.setText(accountKitId);
+                mTxtUserLoginMode.setText(SMSLoginMode ? "Phone:" : "Email:");
                 if (SMSLoginMode) {
-                    txtUserLoginData.setText(phoneNumberString);
+                    mTxtUserLoginData.setText(phoneNumberString);
                 } else {
-                    txtUserLoginData.setText(email);
+                    mTxtUserLoginData.setText(email);
                 }
 
             }
 
             @Override
             public void onError(final AccountKitError error) {
-                logAssert("Error: " + error.toString());
+                log("Error: " + error.toString());
             }
         });
     }
 
-    public void LogOut(View v){
+    public void logout(){
         AccountKit.logOut();
         Intent initialActivity = new Intent(this, InitialActivity.class);
-        this.startActivity(initialActivity);
-        this.finish();
+        startActivity(initialActivity);
+        finish();
     }
 
-    private void logAssert(String error) {
-        Log.println(Log.ASSERT, "AccountKit", error);
+    private void log(String msj) {
+        Log.println(Log.DEBUG, InitialActivity.APP_TAG, msj);
     }
 
 }
