@@ -16,7 +16,7 @@ __Requerimientos__
 
 #Screenshots
 
-![alt tag](http://toolboxsv.com/i/AccountKit_1.png) ![alt tag](http://toolboxsv.com/i/AccountKit_2.png) ![alt tag](http://toolboxsv.com/i/AccountKit_3.png)
+![alt tag](https://opensource.elaniin.com/AccountKit-Android-Java/AccountKit_1.png) ![alt tag](https://opensource.elaniin.com/AccountKit-Android-Java/AccountKit_2.png) ![alt tag](https://opensource.elaniin.com/AccountKit-Android-Java/AccountKit_3.png)
 
 #Feedback or Questions
 All bugs, feature requests, pull requests, feedback, etc., are welcome. [Create an issue.](https://github.com/elaniin/AccountKit-Android-Java/issues)
